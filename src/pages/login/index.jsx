@@ -30,7 +30,7 @@ const Login = () => {
 
             alert('Usuário ou senha inválido')
         }catch(e){
-            //TODO: HOUVE UM ERRO
+            console.error("Erro ao enviar o formulário:", e.message);
         }
     };
 
@@ -46,7 +46,7 @@ const Login = () => {
             <Column>
                 <Wrapper>
                 <TitleLogin>Faça seu cadastro</TitleLogin>
-                <SubtitleLogin>Faça seu login e make the change._</SubtitleLogin>
+                <SubtitleLogin>Faça seu login e faça a mudança</SubtitleLogin>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <Input placeholder="E-mail" leftIcon={<MdEmail />} name="email"  control={control} />
                     {errors.email && <span>E-mail é obrigatório</span>}

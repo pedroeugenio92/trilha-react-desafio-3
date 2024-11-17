@@ -18,13 +18,13 @@ const Card = () => {
         <UserInfo>
           <UserPicture src="https://avatars.githubusercontent.com/u/45184516?v=4"/>
          <div>
-          <h4>Pablo Henrique</h4>
-          <p>Há 8 minutos</p>
+          <h4>Pedro Eugênio</h4>
+          <p>Há 10 minutos</p>
         </div> 
         </UserInfo>
         <PostInfo>
           <h4>Projeto para curso de HTML e CSS </h4>
-          <p>Projeto feito no curso de html e css no bootcamp da dio do Global avanade...<strong>Saiba Mais</strong></p>
+          <p>Projeto feito no curso de html e css no bootcamp da dio do Global...<strong>Saiba Mais</strong></p>
         </PostInfo>
         <HasInfo>
           <h4>#HTML #CSS #Javascript</h4>
